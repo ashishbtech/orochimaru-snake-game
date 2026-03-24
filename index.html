@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orochimaru's Curse - Snake Game</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="bg-layer"></div>
+<div id="bg-gradient"></div>
+<div class="custom-cursor" id="cursor"></div>
+
+<div class="game-wrapper">
+    <div class="scoreboard">
+        <div>Score: <span id="score">0</span></div>
+        <div>High Score: <span id="high-score">0</span></div>
+    </div>
+    
+    <div class="canvas-container">
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+
+        <div id="startScreen" class="screen active">
+            <h1 class="pulse">Orochimaru's<br>Curse</h1>
+            <p class="difficulty-label">Select Difficulty</p>
+            <div class="difficulty-options">
+                <button class="diff-btn" data-speed="150">Easy</button>
+                <button class="diff-btn" data-speed="100">Medium</button>
+                <button class="diff-btn" data-speed="60">Hard</button>
+            </div>
+        </div>
+
+        <div id="gameOverScreen" class="screen">
+            <h2>Jutsu Failed</h2>
+            <div class="final-score">Final Score: <span id="finalScoreVal">0</span></div>
+            <button id="restartBtn">Reincarnate</button>
+        </div>
+    </div>
+</div>
+
+<div class="footer-section">
+    <p class="made-with">Made with ❤️ by Ashish</p>
+    <div class="social-icons">
+        <a href="https://instagram.com/ashish_a15" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/ashishbtech" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ashisha15/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
