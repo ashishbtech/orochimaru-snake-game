@@ -14,7 +14,7 @@ A cinematic, highly interactive Snake game inspired by the dark aesthetic of **O
 
 ##  Live Demo
 
-**Enter the Vessel here:** 🔗 **[orochimarus-curse.netlify.app](#)** 
+**Enter the Vessel here:** 🔗 **[https://ashishbtech.github.io/orochimaru-snake-game/](#)** 
 
 ##  Preview
 
