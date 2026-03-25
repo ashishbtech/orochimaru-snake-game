@@ -14,7 +14,7 @@ A cinematic, highly interactive Snake game inspired by the dark aesthetic of **O
 
 ##  Live Demo
 
-**Enter the Vessel here:** 🔗 **[https://ashishbtech.github.io/orochimaru-snake-game](#)** 
+**Enter the Vessel here:** 🔗 [https://ashishbtech.github.io/orochimaru-snake-game/](https://ashishbtech.github.io/orochimaru-snake-game/)
 
 ##  Preview
 
